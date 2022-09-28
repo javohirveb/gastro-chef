@@ -1,0 +1,21 @@
+@use "../abstract/mixins";
+@use "../abstract/variables" as vars;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#text-green {
+    color: vars.$green;
+}
+
+.green-span {
+    color: vars.$green;
+}
