@@ -2,6 +2,10 @@
 @use "components/menu";
 @use "pages/home";
 @use "pages/services";
+@use "pages/fitness";
 @use "layout";
 @use "abstract/variables" as vars;
 
+body {
+    background-color: #F5FAFF;
+}

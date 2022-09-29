@@ -45,6 +45,12 @@
                 family: 'Comfortaa', cursive;
                 weight: 700;
             }
+            &:hover {
+                box-shadow: none;
+            }
+            &:active {
+                opacity: 0.7;
+            }
         }
         .other-box {
             margin-top: 40px;

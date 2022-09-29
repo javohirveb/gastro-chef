@@ -1,0 +1,84 @@
+@use "../abstract/variables" as vars;
+@use "../abstract/mixins";
+@use "../base/base";
+
+.fitness {
+    &__container {
+        display: flex;
+    }
+    &__left {
+        width: 30%;
+        &-top {
+            background-color: vars.$green;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            border-radius: 30px;
+            color: #f5f5f5;
+            h2 {
+                text-transform: uppercase;
+                display: inline;
+                font: {
+                    size: 25px;
+                    family: 'Comfortaa', cursive;
+                    weight: 700;
+                }
+            }
+            span {
+                margin-left: 15px;
+                font: {
+                    size: 18px;
+                    family: 'Montserrat', sans-serif;
+                    weight: 500;
+                }
+            }
+            p {
+                font: {
+                    size: 16px;
+                    family: 'Montserrat', sans-serif;
+                    weight: 500;
+                }
+                line-height: 20px;
+                margin-top: 20px;
+            }
+        }
+        &-bottom {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            li {
+                font: {
+                    size: 16px;
+                    family: 'Montserrat', sans-serif;
+                    weight: 500;
+                }
+                list-style: none;
+                margin-top: 15px;
+            }
+        }
+        &-lists1 {
+            text-align: left;
+        }
+        &-lists2 {
+            text-align: center;
+        }
+        &-lists3 {
+            text-align: right;
+        }
+        &-link {
+            display: inline-block;
+            background: vars.$green;
+            box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+            border-radius: 190px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            margin-top: 20px;
+            color: #f5f5f5;
+            font: {
+                size: 26px;
+                family: 'Comfortaa', cursive;
+                weight: 700;
+            }
+        }
+    }
+}

@@ -5,6 +5,10 @@
 .services {
     position: relative;
     top: -60px;
+    background: url(../../images/Ellipse\ 115.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
     &__lists {
         display: flex;
         justify-content: space-between;
@@ -30,7 +34,7 @@
     &__link {
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 110px;
         a {
             border-radius: 150px;
             padding-top: 15px;
@@ -47,11 +51,52 @@
                 color: #F5FAFF;
                 background-color: vars.$green;
                 box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+                &:hover {
+                    box-shadow: none;
+                    color: vars.$text-black;
+                    background-color: vars.$main-bg-color;
+                }
+                &:active {
+                    opacity: 0.7;
+                }
             }
             &:last-child {
                 color: vars.$text-black;
                 background-color: vars.$main-bg-color;
+                &:hover {
+                    color: #F5FAFF;
+                    background-color: vars.$green;
+                }
+                &:active {
+                    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+                    opacity: 0.8;
+                }
             }
         }
     }
+    &__information {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        &-item {
+            list-style: none;
+            text-align: center;
+            h4 {
+                text-transform: uppercase;
+                font: {
+                    size: 18px;
+                    family: 'Comfortaa', cursive;
+                    weight: 700;
+                }
+            }
+            p {
+                font: {
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                    weight: 400;
+                }
+            }
+        }
+    }
+    
 }
