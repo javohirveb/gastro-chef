@@ -94,7 +94,7 @@ a {
   background: url(../../images/Ellipse\ 115.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 250px;
+  background-size: contain;
 }
 .services__lists {
   display: flex;
@@ -112,6 +112,7 @@ a {
 .services__item p {
   text-align: center;
   margin-top: 15px;
+  color: #020202;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -168,6 +169,7 @@ a {
 }
 .services__information-item h4 {
   text-transform: uppercase;
+  color: #020202;
   font-size: 18px;
   font-family: "Comfortaa", cursive;
   font-weight: 700;
@@ -176,13 +178,21 @@ a {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  color: #020202;
 }
 
+.fitness {
+  background: url(../../images/Ellipse\ 114.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
 .fitness__container {
   display: flex;
+  justify-content: space-between;
 }
 .fitness__left {
-  width: 30%;
+  width: 33%;
 }
 .fitness__left-top {
   background-color: #64D370;
@@ -221,6 +231,7 @@ a {
   font-weight: 500;
   list-style: none;
   margin-top: 15px;
+  color: #020202;
 }
 .fitness__left-lists1 {
   text-align: left;
@@ -245,6 +256,56 @@ a {
   font-size: 26px;
   font-family: "Comfortaa", cursive;
   font-weight: 700;
+}
+.fitness__left-link:hover {
+  box-shadow: none;
+}
+.fitness__left-link:active {
+  opacity: 0.7;
+}
+.fitness__right {
+  width: 65%;
+}
+.fitness__right-top {
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  border-radius: 30px;
+  padding: 17px 52px;
+}
+.fitness__right-top li {
+  list-style: none;
+  text-transform: uppercase;
+  color: #020202;
+  font-size: 25px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+}
+.fitness__right-lists {
+  background: #f5f5f5;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  border-radius: 30px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.fitness__right-item {
+  list-style: none;
+}
+.fitness__right-item h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.fitness__right-item p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.fitness__right-item1 p {
+  margin-top: 22px;
 }
 
 header {

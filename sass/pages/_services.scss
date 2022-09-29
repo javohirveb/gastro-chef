@@ -8,7 +8,7 @@
     background: url(../../images/Ellipse\ 115.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 250px;
+    background-size: contain;
     &__lists {
         display: flex;
         justify-content: space-between;
@@ -24,6 +24,7 @@
         p {
             text-align: center;
             margin-top: 15px;
+            color: vars.$text-black;
             font: {
                 size: 12px;
                 family: 'Montserrat', sans-serif;
@@ -83,6 +84,7 @@
             text-align: center;
             h4 {
                 text-transform: uppercase;
+                color: vars.$text-black;
                 font: {
                     size: 18px;
                     family: 'Comfortaa', cursive;
@@ -95,6 +97,7 @@
                     family: 'Montserrat', sans-serif;
                     weight: 400;
                 }
+                color: vars.$text-black;
             }
         }
     }
