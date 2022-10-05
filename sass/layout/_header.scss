@@ -96,8 +96,13 @@ header {
             border-radius: 50%;
             margin-right: 25px;
             background: #F5FAFF;
+            color: vars.$text-black;
             box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
             &:first-child {
+                background-color: vars.$green;
+                color: #F5FAFF;
+            }
+            &:hover {
                 background-color: vars.$green;
                 color: #F5FAFF;
             }

@@ -14,6 +14,12 @@ a {
 
 #text-green {
     color: vars.$green;
+    font: {
+        size: 20px;
+        family: 'Montserrat', sans-serif;
+        weight: 700;
+    }
+    cursor: copy;
 }
 
 .green-span {
